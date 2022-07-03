@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="regression(failed)">
+    <classes>
+      <class name="com.RegressionSuite.TC02_Validate_SelectProduct">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="loginFunction"/>
+          <include name="SelectProductValidation"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.RegressionSuite.TC02_Validate_SelectProduct -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
